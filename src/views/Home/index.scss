@@ -1,1 +1,6 @@
 @use "../../sass/variables" as *;
+
+    body{
+        display: flex;
+        flex-direction: column;
+        }

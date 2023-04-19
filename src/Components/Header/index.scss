@@ -7,14 +7,17 @@
         width: 100%;
         padding: 1rem;
         align-items: center
-        }
+    }
         
         .header__icon{
             display: flex;
             justify-content: space-between;
             margin: 2rem;
-            width: 10%;
+            
+                &__perfil{
+                    cursor: pointer;
+                    }
             }
         
-
+    
         

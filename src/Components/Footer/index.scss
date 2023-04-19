@@ -1,1 +1,22 @@
 @use "../../sass/variables" as *;
+
+    .footer{
+        background-color: $header-background;
+        margin-top: 69vh;
+        }
+
+            .footer__div{
+                color: $white;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                height: 5.5rem;
+                
+
+                .copyright{
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    }
+                }

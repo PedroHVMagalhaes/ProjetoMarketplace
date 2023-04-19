@@ -1,16 +1,25 @@
-@use "../../sass/variables";
+@use "../../sass/variables" as *;
 
     .nav{
         width: 100%;
         display: flex;
         justify-content: space-around;
-        background-color: black;
+        background-color: $header-background;
         color: white;
-        padding: 1rem;
         }
 
             button{
-                background-color: black;
+                background-color: $header-background;
                 color: white;
-                width: 20rem; 
+                width: 20rem;
+                height: 3rem;
+                border: none;
+
+                &:hover{
+                    background-color: #525151;
+
+                    }
+                    
                 }
+
+                    
