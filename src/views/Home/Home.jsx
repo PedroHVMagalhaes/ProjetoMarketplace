@@ -10,8 +10,10 @@ const Home = () => {
   return (
     <section>
       <Header />
-      <Nav />
-      <Card />
+      <div>
+        <Nav />
+        <Card />
+      </div>
       <Footer />
     </section>
   );
